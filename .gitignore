@@ -1,0 +1,99 @@
+
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+.venv/
+env/
+yolov8_env/
+ENV/
+
+# ==========================================
+# PYTHON CACHE FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ==========================================
+# YOLO MODEL WEIGHTS
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.safetensors
+
+# ==========================================
+# DATASETS
+# ==========================================
+dataset/
+dataset2/
+Dataset3/
+Dataset4/
+
+# ==========================================
+# YOLO TRAINING RESULTS
+# ==========================================
+runs/
+weights/
+wandb/
+mlruns/
+
+# ==========================================
+# GENERATED DETECTIONS
+# ==========================================
+Cheating_Detected/
+violations/
+logs/
+
+# ==========================================
+# AUDIO RECORDINGS
+# ==========================================
+audio/*.wav
+audio/*.mp3
+audio/*.mp4
+audio/*.webm
+
+# ==========================================
+# IMAGE AND VIDEO OUTPUTS
+# ==========================================
+*.avi
+*.mov
+*.mp4
+*.mkv
+
+# ==========================================
+# EDITOR AND SYSTEM FILES
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# BUILD AND TEMP FILES
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+*.bak
